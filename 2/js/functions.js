@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+
 function checkStringLength(string, maxLength) {
   return string.length <= maxLength;
 }
@@ -29,3 +31,5 @@ console.log(extractNumber('а я томат'));
 console.log(extractNumber(2023));
 console.log(extractNumber(-1));
 console.log(extractNumber(1.5));
+
+/* eslint-enable no-console */
