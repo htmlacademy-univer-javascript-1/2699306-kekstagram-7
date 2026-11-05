@@ -1,3 +1,4 @@
 import { similarPhotos } from './data.js';
+import { renderPictures } from './render.js';
 
-window.similarPhotos = similarPhotos;
+renderPictures(similarPhotos);
